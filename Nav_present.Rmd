@@ -1,0 +1,17 @@
+---
+title: "NAV__Week"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## My new slide
+
+```{r,echo=FALSE}
+library(leaflet)
+my_map <- leaflet() %>%
+  addTiles()
+my_map
+```
